@@ -1,0 +1,9 @@
+@import './components/mixins.scss';
+
+header {
+	background-color: blue;
+
+	@include darkMode {
+		background-color: orangered;
+	}
+}

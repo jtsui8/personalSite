@@ -1,0 +1,6 @@
+//for dark mode. to use, add @include darkMode {...}
+@mixin darkMode {
+	@media (prefers-color-scheme: dark) {
+		@content;
+	}
+}

@@ -1,3 +1,4 @@
+import './styles/header.scss';
 import Logo from './assets/logo.svg';
 
 function Header() {
@@ -5,7 +6,6 @@ function Header() {
 		<>
 			<header>
 				<img src={Logo} alt="Johnny Tsui Logo" />
-				Header
 			</header>
 		</>
 	);
