@@ -1,9 +1,23 @@
 @import './components/mixins.scss';
 
 header {
-	background-color: blue;
+	background: #eeeeee;
+	display: flex;
+	justify-content: center;
 
 	@include darkMode {
-		background-color: orangered;
+		background-color: #082032;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 62.5rem;
+		padding: 0.5rem;
+	}
+
+	.logo {
+		max-width: 100%;
+		margin: 0.25rem;
+		width: 4rem;
 	}
 }

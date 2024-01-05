@@ -5,7 +5,9 @@ function Header() {
 	return (
 		<>
 			<header>
-				<img src={Logo} alt="Johnny Tsui Logo" />
+				<div class="container">
+					<img src={Logo} alt="Johnny Tsui Logo" class="logo" />
+				</div>
 			</header>
 		</>
 	);
