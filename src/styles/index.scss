@@ -14,14 +14,15 @@
 @import './components/reset.scss';
 
 :root {
+	font-size: 100%;
 	font-family: system-ui, Roboto, sans-serif;
 }
 
-html {
-	font-size: 100%;
-}
-
-* {
-	margin: 0;
-	padding: 0;
+#root {
+	display: grid;
+	grid-template-columns: 2.5rem 1fr 5rem 1fr 2.5rem;
+	grid-template-rows: 2.5rem repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	height: 100vh;
 }

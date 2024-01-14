@@ -1,13 +1,11 @@
 import './styles/header.scss';
-import Logo from './assets/logo.svg';
 
 function Header() {
 	return (
 		<>
 			<header>
-				<div className="container">
-					<img src={Logo} alt="Johnny Tsui Logo" className="logo" />
-				</div>
+				<h1>Johnny Tsui</h1>
+				<p>Frontend Developer</p>
 			</header>
 		</>
 	);
