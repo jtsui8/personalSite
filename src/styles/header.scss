@@ -1,5 +1,6 @@
 @import './components/mixins.scss';
 
 header {
-	grid-area: 2 / 2 / 4 / 3;
+	grid-area: 2/2/4/3;
+	position: fixed;
 }

@@ -1,5 +1,6 @@
 @import './components/mixins.scss';
 
 footer {
-	grid-area: 6 / 2 / 7 / 3;
+	grid-area: 7/2/8/3;
+	position: fixed;
 }
