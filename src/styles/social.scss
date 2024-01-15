@@ -1,3 +1,5 @@
+@import './components/variables.scss';
+
 .social {
 	display: flex;
 	margin-bottom: 0.5rem;
@@ -6,6 +8,10 @@
 		margin-right: 0.8rem;
 		opacity: 0.6;
 		transition: 0.4s;
+
+		@media (prefers-color-scheme: dark) {
+			fill: $gray;
+		}
 
 		&:hover {
 			opacity: 1;

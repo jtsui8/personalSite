@@ -1,4 +1,5 @@
 @import './components/mixins.scss';
+@import './components/variables.scss';
 
 header {
 	grid-area: 2 / 2 / 3 / 3;
@@ -14,6 +15,8 @@ header {
 		font-size: 1.25rem;
 		margin: 0 0 1rem;
 		display: block;
+		border-bottom: 0.063rem solid $orange;
+		color: $orange;
 	}
 
 	p {
