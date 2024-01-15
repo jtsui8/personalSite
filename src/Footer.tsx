@@ -1,11 +1,16 @@
 import './styles/footer.scss';
 
+import Social from './Social.tsx';
+
 function Footer() {
 	const year = new Date().getFullYear();
 
 	return (
 		<>
-			<footer>&copy;{year}</footer>
+			<footer>
+				<Social />
+				&copy;{year}
+			</footer>
 		</>
 	);
 }

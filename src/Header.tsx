@@ -5,7 +5,11 @@ function Header() {
 		<>
 			<header>
 				<h1>Johnny Tsui</h1>
-				<p>Frontend Developer</p>
+				<h2>Frontend Developer</h2>
+				<p>
+					I create accessible and visually engaging user interfaces, using modern technologies and design
+					principles.
+				</p>
 			</header>
 		</>
 	);

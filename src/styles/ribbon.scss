@@ -1,0 +1,15 @@
+.ribbon {
+	position: fixed;
+	font-size: 0.8rem;
+	background: #83941f;
+	transform: rotate(-44deg);
+	color: white;
+	top: 2.25rem;
+	left: -3.313rem;
+	padding: 0.1rem 3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: 0.1rem dashed white;
+	border-bottom: 0.1rem dashed white;
+	z-index: 1;
+}

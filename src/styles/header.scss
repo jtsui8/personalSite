@@ -1,6 +1,24 @@
 @import './components/mixins.scss';
 
 header {
-	grid-area: 2/2/4/3;
+	grid-area: 2 / 2 / 3 / 3;
 	position: fixed;
+
+	h1 {
+		font-size: 3rem;
+		font-weight: 700;
+	}
+
+	h2 {
+		font-weight: 400;
+		font-size: 1.25rem;
+		margin: 0 0 1rem;
+		display: block;
+	}
+
+	p {
+		max-width: 25rem;
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+	}
 }

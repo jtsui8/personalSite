@@ -1,0 +1,14 @@
+.social {
+	display: flex;
+	margin-bottom: 0.5rem;
+
+	svg {
+		margin-right: 0.8rem;
+		opacity: 0.6;
+		transition: 0.4s;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
