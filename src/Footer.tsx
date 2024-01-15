@@ -1,5 +1,4 @@
 import './styles/footer.scss';
-
 import Social from './Social.tsx';
 
 function Footer() {

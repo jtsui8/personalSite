@@ -1,4 +1,5 @@
 import './styles/header.scss';
+import ResumeBtn from './ResumeBtn.tsx';
 
 function Header() {
 	return (
@@ -10,6 +11,7 @@ function Header() {
 					I create accessible and visually engaging user interfaces, using modern technologies and design
 					principles.
 				</p>
+				<ResumeBtn />
 			</header>
 		</>
 	);
