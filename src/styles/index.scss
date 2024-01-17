@@ -39,6 +39,11 @@ body {
 	position: relative;
 	color: $black;
 
+	@media screen and (max-width: $mobile) {
+		display: block;
+		margin: 5rem 5rem;
+	}
+
 	@media (prefers-color-scheme: dark) {
 		color: $white;
 	}

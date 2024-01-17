@@ -5,6 +5,12 @@ header {
 	grid-area: 2 / 2 / 3 / 3;
 	position: fixed;
 
+	@media screen and (max-width: $mobile) {
+		position: relative;
+		grid-area: 1;
+		margin-bottom: 2.5rem;
+	}
+
 	h1 {
 		font-size: 3rem;
 		font-weight: 700;

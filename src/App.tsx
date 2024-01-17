@@ -46,7 +46,6 @@ function App() {
 						<li>JavaScript</li>
 						<li>TypeScript</li>
 						<li>Vue.js</li>
-						<li>NPM</li>
 						<li>PHP</li>
 						<li>Twig</li>
 						<li>Wordpress</li>
