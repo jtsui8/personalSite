@@ -1,5 +1,70 @@
 @import './components/mixins.scss';
+@import './components/variables.scss';
 
 section {
 	grid-area: 2 / 4 / 7 / 5;
+
+	h2 {
+		font-weight: 400;
+		font-size: 1.5rem;
+		margin: 0 0 1rem;
+		display: block;
+		border-bottom: 0.063rem solid $orange;
+		color: $orange;
+	}
+
+	h3 {
+		color: $orange;
+		font-weight: 700;
+	}
+
+	h4 {
+		color: $orange;
+		margin-bottom: 0.5rem;
+	}
+
+	p {
+		margin-bottom: 1.5rem;
+		line-height: 1.5rem;
+	}
+
+	article {
+		margin-bottom: 1.5rem;
+		display: block;
+
+		&:last-child {
+			height: 5rem;
+		}
+	}
+
+	.year {
+		margin-bottom: 1.5rem;
+	}
+
+	ul {
+		list-style-position: inside;
+	}
+
+	.skillList {
+		list-style: none;
+
+		li {
+			display: inline-block;
+			border: 1px solid $orange;
+			padding: 0.1rem 1rem;
+			margin-right: 0.8rem;
+			border-radius: 3rem;
+			font-size: 0.7rem;
+			cursor: default;
+		}
+	}
+
+	li {
+		margin-bottom: 0.8rem;
+		line-height: 1.5rem;
+	}
+
+	span {
+		display: block;
+	}
 }
