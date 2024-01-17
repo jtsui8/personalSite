@@ -4,11 +4,13 @@
 header {
 	grid-area: 2 / 2 / 3 / 3;
 	position: fixed;
+	width: 45%;
 
 	@media screen and (max-width: $mobile) {
 		position: relative;
 		grid-area: 1;
 		margin-bottom: 2.5rem;
+		width: 100%;
 	}
 
 	h1 {
