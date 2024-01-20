@@ -17,7 +17,11 @@ function App() {
 				</p>
 				<h2>Experiences</h2>
 				<article>
-					<h3>Slickdeals LLC</h3>
+					<h3>
+						<a href="https://slickdeals.net/" target="_blank">
+							Slickdeals LLC
+						</a>
+					</h3>
 					<span>Frontend Developer</span>
 					<span className="year">2016 - 2023</span>
 					<ul>
