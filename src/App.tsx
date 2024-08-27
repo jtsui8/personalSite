@@ -39,26 +39,41 @@ function App() {
 				<article>
 					<h3>
 						<a href="https://slickdeals.net/" target="_blank">
-							Slickdeals LLC
+							Slickdeals
 						</a>
 					</h3>
 					<span>Frontend Developer</span>
 					<span className="year">2016 - 2023</span>
 					<ul>
-						<li>Translated flat design files to clean, accessible and interactive user experiences.</li>
+						<li>Translated Figma files to clean, accessible, and interactive user experiences.</li>
+						<li>Used Figma to create wireframes to plan layouts and interactions.</li>
 						<li>
-							Developed and maintained user-facing websites using HTML, CSS (Sass), and JavaScript (TypeScript and
+							Developed and maintained user-facing websites using HTML5, CSS3 (SCSS), and JavaScript (TypeScript and
 							Vue.js).
 						</li>
+						<li>
+							Created micro-frontend apps with Vue.js and React to allow better reusability and ease of management of
+							components.
+						</li>
+						<li>
+							Work with the design team to create a design system to promote visual consistency throughout the site.
+						</li>
+						<li>Used the Twig templating engine to construct frontend templates.</li>
+						<li>
+							Crafted landing page templates for WordPress using Elementor visual website builder and built custom
+							in-house themes to support specific campaigns.
+						</li>
+						<li>Update WordPress plugins to add additional functionality, such as adding support for SASS and Twig.</li>
+						<li>Help set up A/B testing with internal tools to measure the impact of the design.</li>
 						<li>
 							Imparted specific expertise and knowledge to peers and staff through individual mentoring and team
 							efforts.
 						</li>
-						<li>Researched new technologies related to front end development for future implementation.</li>
-						<li>Reviewed design mockups to provide feedback to designers on usability.</li>
+						<li>Researched new technologies related to front-end development for future implementation.</li>
+						<li>Reviewed design mockups using Figma to provide feedback to designers on usability.</li>
 						<li>Provided ongoing maintenance support for existing projects after deployment.</li>
 						<li>
-							Collaborated closely with the back-end developers to integrate API calls into the front-end codebase.
+							Collaborated closely with the backend developers to integrate API calls into the front-end codebase.
 						</li>
 					</ul>
 					<h4>Languages</h4>
@@ -79,11 +94,13 @@ function App() {
 					<span>Frontend Developer</span>
 					<span className="year">2013 - 2016</span>
 					<ul>
-						<li>Developed and maintained Wordpress themes.</li>
+						<li>Developed and maintained custom WordPress themes.</li>
 						<li>Provided ongoing maintenance support for existing projects after deployment.</li>
-						<li>Integrated third-party APIs with existing Wordpress sites to extend functionality.</li>
+						<li>Integrated third-party APIs with existing WordPress sites to extend functionality.</li>
+						<li>Researched new technologies related to front-end development for future implementation.</li>
 						<li>Reviewed design mockups to provide feedback to designers on usability.</li>
 						<li>Wrote style guidelines for client-facing applications developed by cross-functional teams.</li>
+						<li>Created animated ads using Adobe Illustrator for Google Ads.</li>
 					</ul>
 					<h4>Languages</h4>
 					<ul className="skillList">
@@ -101,10 +118,10 @@ function App() {
 					<span>Junior Web Developer</span>
 					<span className="year">2011 - 2013</span>
 					<ul>
-						<li>
-							Developed and implemented web applications using HTML, CSS, JavaScript, jQuery, AJAX and PHP technologies.
-						</li>
-						<li>Assisted in the design of user interface features, site animation and special effects.</li>
+						<li>Developed and implemented web applications using HTML, CSS, JavaScript, jQuery, AJAX, and PHP.</li>
+						<li>Assisted in the design of user interface features, site animation, and special effects.</li>
+						<li>Accommodate client requests by promptly updating content within their CMS.</li>
+						<li>Create HTML email newsletter templates for digital publishing.</li>
 					</ul>
 					<h4>Languages</h4>
 					<ul className="skillList">
