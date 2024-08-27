@@ -5,17 +5,37 @@ function App() {
 		<>
 			<section>
 				<p>
-					With over a decade of dedicated expertise as a Front-End Developer, I bring a wealth of experience
-					in crafting visually captivating and highly functional web experiences. My extensive proficiency in
-					HTML5, CSS3, JavaScript, TypeScript and a range of frontend frameworks, including React and Vue.js,
-					has consistently enabled me to deliver user-centric solutions that drive engagement and conversions
-					across various industries. I'm not only well-versed in optimizing web performance and ensuring
-					cross-browser compatibility but also excel in collaborating seamlessly with cross- functional teams,
-					leading projects to successful fruition, and staying ahead of industry trends and emerging
-					technologies. My unwavering commitment to delivering top-notch frontend solutions continues to drive
-					innovation and excellence in my career.
+					With over a decade of dedicated expertise as a Front-End Developer, I bring a wealth of experience crafting
+					visually captivating and highly functional web experiences. My extensive proficiency in HTML5, CSS3,
+					JavaScript, TypeScript, and other frontend frameworks, including React and Vue.js, has consistently enabled me
+					to deliver user-centric solutions that drive engagement and conversions across various industries. I'm well-
+					versed in optimizing web performance and ensuring cross-browser compatibility and excel in collaborating
+					seamlessly with cross-functional teams, leading projects to successful fruition, and staying ahead of industry
+					trends and emerging technologies. My unwavering commitment to delivering top-notch front-end solutions
+					continues to drive innovation and excellence in my career.
 				</p>
 				<h2>Experiences</h2>
+				<article>
+					<h3>Blox Digital</h3>
+					<span>Frontend Developer</span>
+					<span className="year">2024</span>
+					<ul>
+						<li>Updated and edited internal CMS system based on client requests. </li>
+						<li>Added new features and options to internal CMS.</li>
+						<li>Used Javascript to manipulate and display data from the CMS on the front end.</li>
+						<li>
+							Used Javascript to manipulate and display data from the CMS on the front end. Used Javascript to debug and
+							fix errors in the code.
+						</li>
+						<li>Used CSS to adjust the layout of the page.</li>
+					</ul>
+					<h4>Languages</h4>
+					<ul className="skillList">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript</li>
+					</ul>
+				</article>
 				<article>
 					<h3>
 						<a href="https://slickdeals.net/" target="_blank">
@@ -27,19 +47,18 @@ function App() {
 					<ul>
 						<li>Translated flat design files to clean, accessible and interactive user experiences.</li>
 						<li>
-							Developed and maintained user-facing websites using HTML, CSS (Sass), and JavaScript
-							(TypeScript and Vue.js).
+							Developed and maintained user-facing websites using HTML, CSS (Sass), and JavaScript (TypeScript and
+							Vue.js).
 						</li>
 						<li>
-							Imparted specific expertise and knowledge to peers and staff through individual mentoring
-							and team efforts.
+							Imparted specific expertise and knowledge to peers and staff through individual mentoring and team
+							efforts.
 						</li>
 						<li>Researched new technologies related to front end development for future implementation.</li>
 						<li>Reviewed design mockups to provide feedback to designers on usability.</li>
 						<li>Provided ongoing maintenance support for existing projects after deployment.</li>
 						<li>
-							Collaborated closely with the back-end developers to integrate API calls into the front-end
-							codebase.
+							Collaborated closely with the back-end developers to integrate API calls into the front-end codebase.
 						</li>
 					</ul>
 					<h4>Languages</h4>
@@ -52,7 +71,7 @@ function App() {
 						<li>Vue.js</li>
 						<li>PHP</li>
 						<li>Twig</li>
-						<li>Wordpress</li>
+						<li>WordPress</li>
 					</ul>
 				</article>
 				<article>
@@ -64,9 +83,7 @@ function App() {
 						<li>Provided ongoing maintenance support for existing projects after deployment.</li>
 						<li>Integrated third-party APIs with existing Wordpress sites to extend functionality.</li>
 						<li>Reviewed design mockups to provide feedback to designers on usability.</li>
-						<li>
-							Wrote style guidelines for client-facing applications developed by cross-functional teams.
-						</li>
+						<li>Wrote style guidelines for client-facing applications developed by cross-functional teams.</li>
 					</ul>
 					<h4>Languages</h4>
 					<ul className="skillList">
@@ -76,7 +93,7 @@ function App() {
 						<li>JavaScript</li>
 						<li>jQuery</li>
 						<li>PHP</li>
-						<li>Wordpress</li>
+						<li>WordPress</li>
 					</ul>
 				</article>
 				<article>
@@ -85,8 +102,7 @@ function App() {
 					<span className="year">2011 - 2013</span>
 					<ul>
 						<li>
-							Developed and implemented web applications using HTML, CSS, JavaScript, jQuery, AJAX and PHP
-							technologies.
+							Developed and implemented web applications using HTML, CSS, JavaScript, jQuery, AJAX and PHP technologies.
 						</li>
 						<li>Assisted in the design of user interface features, site animation and special effects.</li>
 					</ul>
